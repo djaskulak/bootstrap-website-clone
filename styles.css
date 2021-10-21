@@ -1,0 +1,14 @@
+.btn-pink-fill {
+  background-color: #ea4c89;
+  color: white;
+  border-radius: 0.5em;
+}
+
+#name {
+  font-family: "Sacramento";
+  font-size: 32px;
+}
+
+.custom-nav {
+  color: lightgrey
+}
