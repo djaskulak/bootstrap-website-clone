@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>dribbble</title>
+  <link href="https://cdn.dribbble.com/assets/favicon-b38525134603b9513174ec887944bde1a869eb6cd414f4d640ee48ab2a15a26b.ico" rel="icon">
+  <title>Dribbble - Discover the World’s Top Designers &amp; Creative Professionals</title>
+  <meta name="description" content="Dribbble is where designers gain inspiration, 
+  feedback, community, and jobs and is your best resource to discover and connect 
+  with designers worldwide.">
 
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -14,11 +18,19 @@
 
   <!--GOOGLE FONTS API-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+
+  <script src="https://js-agent.newrelic.com/nr-1211.min.js"></script>
+
+  <!--Found the stylesheet Dribbble uses-->
+  <link rel="stylesheet" href="https://cdn.dribbble.com/assets/mini-master-async-242bd6e3d580c598a3ba27de4ab6ef9da5ce23c8f2bf418d0ff1ec0b84d0ba57.css" media="all" onload="this.media='all'">
+  <link rel="stylesheet" media="screen" href="https://cdn.dribbble.com/assets/infinite-shots-pages/index-2bdd27801ec9c8e76aceea1c9852077a634b55299fb03e9d01b3ac58f6264435.css">
+  
+  <link href="https://cdn.dribbble.com/assets/dribbble-vector-ball-f320a6ba48a4ccf416ef6e396e204c899874565b694593834b6c23f978394498.svg" rel="mask-icon" color="#ea4c89">
   </head>
 
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: white">
       <div class="container-fluid">
         <a class="navbar-brand" id="name" href="#">dribbble</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,24 +68,41 @@
     </nav>
 
     <!--HERO-->
-    <div class="jumbotron hero-background-img ">
-			<h1>Discover the world’s top designers & creatives</h1>
-			<p class="lead">
-        Dribbble is the leading destination to find & showcase 
-        creative work and home to the world's best design professionals.
-      </p>
-			<a href="#" class="btn btn-pink-fill">Sign up</a>
-		</div>
+    <div style="background: #F9F8FD" class="p-3">
+      <div class="container-large signed-out-masthead">
+        <div class="text-content">
+          <h1>Discover the world’s top designers &amp; creatives</h1>
+          <p>Dribbble is the leading destination to find &amp; showcase creative work and home to the world's best design professionals.</p>
+          <a class="form-sub sign-up" href="#">Sign up</a>
+        </div>
+        <div class="shot-content">
+          <picture class="img-fluid">
+            <source type="image/webp" srcset="https://cdn.dribbble.com/assets/art-banners/romainbriaux-320w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp 320w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-640w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp 640w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-51a20c877f4deef57fbbb82609ae6d846bcd4129f21e21505371255abb3f2f60.webp 510w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-1100w-e946173753fca7eb4dbd6786ac59e5b66aba2ce29564682b45a074bf0673cff6.webp 1100w" sizes="(max-width: 500px) 320px, 510px">
+            <source type="image/jpeg" srcset="https://cdn.dribbble.com/assets/art-banners/romainbriaux-320w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 320w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-640w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 640w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 510w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-1100w-97eea970d8685aac38834f53a651aa5d484e2a62ad796f4279462d54ded65ca7.png 1100w" sizes="(max-width: 500px) 320px, 510px">
+            <img srcset="https://cdn.dribbble.com/assets/art-banners/romainbriaux-320w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 320w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-640w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 640w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-510w-7b034200ecc8b2e9e5b51a49117ce5ddaa553c6f2defd385727e8fce14e85a03.png 510w, https://cdn.dribbble.com/assets/art-banners/romainbriaux-1100w-97eea970d8685aac38834f53a651aa5d484e2a62ad796f4279462d54ded65ca7.png 1100w" sizes="(max-width: 500px) 320px, 510px" class="signed-out-masthead-image" alt="Dribbble is the leading destination to find &amp; showcase creative work and home to the world's best design professionals.">
+          </picture>
+          <span class="user-credit">Art by <a class="user-credit-link" style="color: gray" href="/romainbriaux">Romain Briaux</a></span>
+        </div>
+      </div>
+    </div>
 
     <!--CATEGORY NAV-->
+    
 
     <!--CARDS-->
 
     <!--SIGN UP AND BACK TO TOP-->
+    <div class="infinite shot-grid-width container-fluid infinite-login-actions" style="">
+      <a class="form-sub sign-up-to-continue" data-signup-trigger="true" data-href="/signup/new" data-context="homepage-load-more" href="/signup/new">Sign up to continue</a>
+      <a href="/session/new">or sign in</a>
+    </div>
 
     <!--FOOTER PT 1-->
 
     <!--FOOTER PT 2-->
+    <div class="footer p-5 text-white">
+			&copy; 2021 Dribbble. All rights reserved.
+		</div>
 
   </body>
 </html>
